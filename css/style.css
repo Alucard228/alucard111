@@ -212,13 +212,14 @@ a {
     height: 100px;
 }
 
+
+
 .about__info {
     color: white;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
-    line-height: 150%;
     width: 401px;
     height: 120px;
     margin: 32px 0px;
@@ -275,11 +276,21 @@ a {
 .logo__pic {
 }
 .logo__text {
+    padding-bottom: 20PX;
+  
+}
+
+.logo__title {
+    color: #FFFFFF;
 }
 
 .footer.logo__title {
     font-size: 19px;
     color: #FFFFFF;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
 }
 
 .footer.logo__subtitle {
@@ -289,6 +300,7 @@ a {
 .footer__info {
 }
 .footer__subtitle {
+    padding-bottom: 20px;
 }
 .footer__nav {
 }
@@ -298,7 +310,13 @@ a {
 .footer__nav-item {
 }
 .footer__nav-link {
+    
 }
+
+li {
+    line-height: 1.8; 
+   }
+
 .social__list {
     font-size: 0;
     display: flex;
